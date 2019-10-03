@@ -6,20 +6,20 @@ int main(void) {
 	
 	scanf("%c", &letter);
 	
-	switch(letter) {
-		case "A":
+	switch(letter) { // ("")½Öµû¿ÈÇ¥°¡ ¾Æ´Ï¶ó ('')µû¿ÈÇ¥ÀÏ°Í 
+		case 'A':
 			printf("best!!!");
 			break;
 		
-		case "B":
+		case 'B':
 			printf("good!!");
 			break;
 		
-		case "C":
+		case 'C':
 			printf("run!");
 			break;
 		
-		case "D":
+		case 'D':
 			printf("slowly~");
 			break;
 			
