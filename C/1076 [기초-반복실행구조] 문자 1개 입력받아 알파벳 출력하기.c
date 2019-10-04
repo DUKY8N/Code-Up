@@ -5,7 +5,7 @@ int main(void) {
 	
 	
 	scanf("%c", &leter);
-	leterCount = "a";
+	leterCount = 'a'; // C언어에서 문자는 ''(작은따옴표)로 묶어서 표현함. 
 	
 	do {
 		printf("%c ", leterCount);
